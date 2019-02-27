@@ -11,7 +11,7 @@ El programa buscará viviendas en venta o alquiler teniendo en cuenta un presupu
 ## Objetivos del trabajo
 
 
-este programa permitira al usuario personalizar la busqueda de una vivienda.
-el usuario podra elegir entre una vivienda de alquiler o de venta.
-en segundo lugar personalizara sus gustos en funcion del distrito de madrid donde se quiera ubicar, el numero de habitaciones que desee y el numero de baños y su presupuesto.
-el programa le dara un listado de pisos en el orden que el usuario pida (de mayor a menor precio o viceversa) ademas de la mejor opcion segun el programa.
+Este programa permitirá al usuario personalizar la búsqueda de una vivienda.
+El usuario podrá elegir entre una vivienda de alquiler o de venta.
+En segundo lugar personalizará sus gustos en función del distrito de Madrid donde se quiera ubicar, el número de habitaciones y baño que desee y su presupuesto.
+El programa le dará un listado de pisos en el orden que el usuario pida (de mayor a menor precio o viceversa) además de la mejor opción según el programa.
