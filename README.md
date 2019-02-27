@@ -4,9 +4,9 @@ El programa buscará viviendas en venta o alquiler teniendo en cuenta un presupu
 
 ## Integrantes del equipo
 
-Angélica Cablanque - 
-Cristina Monreal - crism98
-Elisa Peláez - elisapelaezp
+* Angélica Cablanque - 
+* Cristina Monreal - crism98
+* Elisa Peláez - elisapelaezp
 
 ## Objetivos del trabajo
 
