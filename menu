@@ -1,0 +1,121 @@
+#include <stdio.h>
+
+void main()
+
+{ 
+
+int opcion,bano,habitacion;
+printf("Bienvenidos a la web de la Inmobiliaria\n");
+printf("Introduzca el tipo de propiedad 1-local,2-piso,3-casa”\n);
+switch(opcion)
+
+{
+case 1:
+printf("Elija la opción que desee: 1-Comprar, 2-Alquilar \n”);
+
+scanf("%i”,&opcion);
+switch (opcion)
+
+{
+
+case 1: 
+printf("Ha seleccionado la opción de comprar un local\n”);
+
+printf("Introduzca el número de habitaciones y baños deseados\n”);
+
+scanf("%i %i”, &bano, &habitacion);
+
+break;
+
+case 2: 
+
+printf("Ha seleccionado la opción de alquilar un local\n”);
+
+printf("Introduzca el número de habitaciones y baños deseados\n”);
+
+scanf("%i %i”, &bano, &habitacion);
+
+break;
+
+default: 
+
+printf("Opcion incorrecta\n”);
+
+break;
+
+}
+
+ Case 2:
+
+printf("Elija la opción que desee: 1-Comprar, 2-Alquilar 3-vender \n”);
+
+scanf("%i”,&opcion);
+
+switch (opcion)
+
+{
+
+case 1: 
+
+printf("Ha seleccionado la opción de comprar un piso\n”);
+
+printf("Introduzca el número de habitaciones y baños deseados\n”);
+
+scanf("%i %i”, &bano, &habitacion);
+
+printf("Introduzca el tipo de propiedad\n");
+break;
+case 2: 
+
+printf("Ha seleccionado la opción de alquilar un piso\n”);
+
+printf(“Introduzca el número de habitaciones y baños deseados\n”);
+
+scanf("%i %i”, &bano, &habitacion);
+
+break;
+default: 
+
+printf("Opcion incorrecta\n”)
+
+break;
+
+}
+
+case 3:
+printf("Elija la opción que desee: 1-Comprar, 2-Alquilar \n”);
+
+scanf("%i”,&opcion);
+
+switch (opcion)
+
+{
+
+case 1: 
+printf("Ha seleccionado la opción de comprar una casa\n”);
+
+printf("introduzca el número de habitaciones y baños deseados\n”);
+
+scanf(“%i %i”, &bano, &habitacion);
+
+break;
+
+case 2: 
+
+printf("ha seleccionado la opción de alquilar una casa\n”);
+
+printf("Introduzca el número de habitaciones y baños deseados\n”);
+
+scanf("%i %i”, &bano, &habitacion);
+
+break;
+
+default: 
+
+printf("Opcion incorrecta\n”);
+
+break;
+
+}
+
+}
