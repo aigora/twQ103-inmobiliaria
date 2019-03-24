@@ -1,121 +1,73 @@
 #include <stdio.h>
 
-void main()
+int main()
+{
 
-{ 
-
-int opcion,bano,habitacion;
+int propiedad,opcion,banos,habitacion,metros;
 printf("Bienvenidos a la web de la Inmobiliaria\n");
-printf("Introduzca el tipo de propiedad 1-local,2-piso,3-casa”\n);
-switch(opcion)
+printf("Seleccione la opcion 1 si desea comprar y la opcion 2 si desea aquilar\n");
 
+scanf("%i",&opcion);
+
+if(opcion==1)
 {
-case 1:
-printf("Elija la opción que desee: 1-Comprar, 2-Alquilar \n”);
+	printf("Ha seleccionado la opcion de comprar\n");
+	printf("Seleccione ahora el tipo de propiedad 1-Piso 2-Casa 3-Local\n");
+	scanf("%i",&propiedad);
+	
+	switch (propiedad)
+	{
+		case 1:
+			printf("Ha seleccionado piso\n");
+			printf("Seleccione el numero de baños y habitaciones que desea\n");
+			scanf("%i %i",&banos,&habitacion);
+			break;
+		case 2:
+			printf("Ha seleccionado casa\n");
+			printf("Seleccione el numero de baños y habitaciones que desea\n");
+			scanf("%i %i",&banos,&habitacion);
+			break;
+		case 3:
+			printf("Ha seleccionado local\n");
+			printf("Aproxime el tamaño del local (en metros cuadrados)\n");
+			scanf("%d",&metros);
+			break;
 
-scanf("%i”,&opcion);
-switch (opcion)
-
-{
-
-case 1: 
-printf("Ha seleccionado la opción de comprar un local\n”);
-
-printf("Introduzca el número de habitaciones y baños deseados\n”);
-
-scanf("%i %i”, &bano, &habitacion);
-
-break;
-
-case 2: 
-
-printf("Ha seleccionado la opción de alquilar un local\n”);
-
-printf("Introduzca el número de habitaciones y baños deseados\n”);
-
-scanf("%i %i”, &bano, &habitacion);
-
-break;
-
-default: 
-
-printf("Opcion incorrecta\n”);
-
-break;
-
+	}
 }
 
- Case 2:
-
-printf("Elija la opción que desee: 1-Comprar, 2-Alquilar 3-vender \n”);
-
-scanf("%i”,&opcion);
-
-switch (opcion)
-
+else if(opcion==2)
 {
+	printf("Ha seleccionado la opcion de alquilar\n");
+	printf("Seleccione ahora el tipo de propiedad 1-Piso 2-Casa 3-Local\n");
+	scanf("%i",&propiedad);
+	
+		switch (propiedad)
+	{
+		case 1:
+			printf("Ha seleccionado piso\n");
+			printf("Seleccione el numero de baños y habitaciones que desea\n");
+			scanf("%i %i",&banos,&habitacion);
+			break;
+		case 2:
+			printf("Ha seleccionado casa\n");
+			printf("Seleccione el numero de baños y habitaciones que desea\n");
+			scanf("%i %i",&banos,&habitacion);
+			break;
+		case 3:
+			printf("Ha seleccionado local\n");
+			printf("Aproxime el tamaño del local (en metros cuadrados)\n");
+			scanf("%d",&metros);
+			break;
 
-case 1: 
-
-printf("Ha seleccionado la opción de comprar un piso\n”);
-
-printf("Introduzca el número de habitaciones y baños deseados\n”);
-
-scanf("%i %i”, &bano, &habitacion);
-
-printf("Introduzca el tipo de propiedad\n");
-break;
-case 2: 
-
-printf("Ha seleccionado la opción de alquilar un piso\n”);
-
-printf(“Introduzca el número de habitaciones y baños deseados\n”);
-
-scanf("%i %i”, &bano, &habitacion);
-
-break;
-default: 
-
-printf("Opcion incorrecta\n”)
-
-break;
-
+	}
 }
 
-case 3:
-printf("Elija la opción que desee: 1-Comprar, 2-Alquilar \n”);
-
-scanf("%i”,&opcion);
-
-switch (opcion)
-
-{
-
-case 1: 
-printf("Ha seleccionado la opción de comprar una casa\n”);
-
-printf("introduzca el número de habitaciones y baños deseados\n”);
-
-scanf(“%i %i”, &bano, &habitacion);
-
-break;
-
-case 2: 
-
-printf("ha seleccionado la opción de alquilar una casa\n”);
-
-printf("Introduzca el número de habitaciones y baños deseados\n”);
-
-scanf("%i %i”, &bano, &habitacion);
-
-break;
-
-default: 
-
-printf("Opcion incorrecta\n”);
-
-break;
-
+else
+{ printf("Opcion no valida\n");
 }
+
+
+return 0;
 
 }
