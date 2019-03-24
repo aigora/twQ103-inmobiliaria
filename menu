@@ -3,7 +3,8 @@
 int main()
 {
 
-int propiedad,opcion,banos,habitacion,metros;
+int propiedad,opcion,banos,habitacion;
+float metros;
 printf("Bienvenidos a la web de la Inmobiliaria\n");
 printf("Seleccione la opcion 1 si desea comprar y la opcion 2 si desea aquilar\n");
 
