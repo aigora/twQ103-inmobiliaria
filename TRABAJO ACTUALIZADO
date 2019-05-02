@@ -1,0 +1,105 @@
+#include <stdlib.h>
+
+int main()
+{
+
+int opcion,banos,habitacion,amueblado,garaje,zona,precio;
+char propiedad, piso=a,casa=b,local=c;
+float metros;
+printf("Bienvenidos a la wInmobiliariaeb de la  ECA\n");
+printf("Seleccione la opcion 1 si desea comprar y la opcion 2 si desea aquilar\n");
+
+scanf("%i",&opcion);
+
+if(opcion==1)
+
+    printf("Ha seleccionado la opcion de comprar\n");
+
+   else if
+   
+      printf ("has seleccionado la opcion de alquilar");
+   
+	else
+        
+	  printf("Opcion no valida\n");
+    
+    while(1||2)
+    {
+
+	printf("Seleccione ahora el tipo de propiedad a-Piso b-Casa c-Local\n");
+		system("clear");
+	scanf("%i",&propiedad);
+    }
+	switch (propiedad)
+	
+	{
+		case a:
+			printf("Ha seleccionado piso\n");
+		
+			break;
+		case b:
+			printf("Ha seleccionado casa\n");
+		
+			break;
+		case c:
+			printf("Ha seleccionado local\n");
+			
+			break;
+
+	}
+
+    while(a||b||c)
+    {
+    	printf("numero de baños que desee\n");
+    	scanf("%d",&bano);
+    	system("clear");
+    	printf("numero de habitaciones que desee\n");
+    	scanf("%d",&habitacion);
+    	printf("numero de metros cuadrados\n");
+    	scanf("%d",&metros);
+    	system("clear");
+    	printf("¿lo desea amueblado? pulse 1 si lo quiere amueblado, sino puelse 0\n");
+    	amueblado=(si||no)?1:0;
+    	scanf("%d",&amueblado);
+    	system("clear");
+    	printf("¿quiere garaje?si lo desea pulse 1 y sino pulse 0\n");
+    	garaje=(si||no)?1:0;
+    	scanf("%d",&garaje);
+    	system("clear");
+    	printf("zona: 1-centro, 2-norte,3-este,4-oeste\n");
+    	 scanf("%d",&zona);
+        
+    	  switch (zona)
+    	  {
+    	  	case 1:
+    	  		printf("has seleccionado centro\n");
+    	  		break;
+    	  	case2:
+    	  		printf("has seleccionado norte\n ");
+    	  		break;
+    	  	case 3:
+    	  		printf("has seleccionado este\n");
+    	  		break;
+    	    case 4:
+    	    	printf("has seleccionado oeste");
+    	    	break;
+    	    	
+		  }
+
+		
+		
+		 do
+		 {
+		 printf("introduzca precio maximo:");
+		 scanf("%d",&precio);
+	    }
+		while (precio<=400);
+		 system("clear");
+    	
+    	printf("estamos buscando tu piso ideal\n");
+	}
+
+
+return 0;
+
+}
