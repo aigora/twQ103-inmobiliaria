@@ -74,7 +74,7 @@ int main()
     	  	case 1:
     	  		printf("has seleccionado centro\n");
     	  		break;
-    	  	case2:
+    	  	case 2:
     	  		printf("has seleccionado norte\n ");
     	  		break;
     	  	case 3:
