@@ -1,0 +1,14 @@
+uso	tipoP	banos	habit	amue	metros	garaje 	zona	precio	
+venta	casa	3	4	1	120	1	norte	120000
+venta	piso	2	4	1	90	1	centro	700000
+venta	casa	4	5	0	200	1	centro	1000000
+alqu	piso	2	4	1	120	0	centro	2160
+alqu	piso	3	5	1	160	1	este	3000
+alq	casa	3	5	1	180	1	oeste	4000
+venta	piso	3	4	1	150	0	este	3500
+venta	local	1	2	1	220	0	centro	500000
+alqu	local	1	2	0	300	0	sur	400000
+venta	piso	3	3	1	130	1	centro	600000
+venta	casa	2	4	0	150	1	sur	500000
+venta	piso	3	5	1	250	1	norte	1500000
+alqu	casa	1	2	0	65	0	centro	2000
